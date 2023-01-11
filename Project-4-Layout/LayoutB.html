@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the description of the basic Layout for bootstrap">
+    <title>Layout B</title>
+    <!-- This is Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <style>
+        .bar {
+            background-color: grey;
+        }
+
+        .mybox {
+            background-color: tomato;
+            min-height: 200px;
+            margin: 20px 10px;
+            padding: 20px;
+        }
+
+        .mybox1 {
+            background-color: greenyellow;
+            min-height: 200px;
+            margin: 20px 10px;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid bar">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="mybox">LOGO</div>
+                </div>
+                <div class="col">
+                    <div class="mybox">NAV</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <div class="mybox">
+                    <div class="row">
+                        <div class="col">
+                            <div class="textbox">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sunt perferendis nam provident voluptates voluptas in repellendus, necessitatibus eum incidunt repudiandae, aliquam facilis voluptate porro reiciendis odio neque a odit!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mybox1">NEST1</div>
+                        </div>
+                        <div class="col">
+                            <div class="mybox1">NEST2</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <div class="mybox">FEATURE1</div>
+            </div>
+            <div class="col">
+                <div class="mybox">FEATURE2</div>
+            </div>
+            <div class="col">
+                <div class="mybox">FEATURE3</div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
